@@ -133,6 +133,7 @@ function xsbf_dev_custom_header_args() {
  * OVERRIDE THE SITE CREDITS. IF YOU WANT TO REMOVE THEM ALTOGETHER, JUST RETURN
  * NOTHING INSTEAD.
  */
+add_filter('xsbf_credits', 'xsbf_dev_credits'); 
 function xsbf_dev_credits ( $site_credits ) {
 		
 	$theme = wp_get_theme();
@@ -144,4 +145,3 @@ function xsbf_dev_credits ( $site_credits ) {
 	);
 	return $site_credits;
 }
-add_filter('xsbf_credits', 'xsbf_dev_credits'); 
