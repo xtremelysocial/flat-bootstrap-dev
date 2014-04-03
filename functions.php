@@ -2,7 +2,7 @@
 /**
  * Theme: Flat Bootstrap Developer
  * 
- * Functions file
+ * Functions file to override parent theme functions
  *
  * @package flat-bootstrap-dev
  */
