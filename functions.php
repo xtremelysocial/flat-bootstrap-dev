@@ -2,7 +2,9 @@
 /**
  * Theme: Flat Bootstrap Developer
  * 
- * Functions file to override parent theme functions
+ * Functions file for child theme. If you want to make simpler changes than what is 
+ * included here, consider using the Flat Bootstrap Child theme that is included with the 
+ * parent theme, Flat Bootstrap.
  *
  * @package flat-bootstrap-dev
  */
@@ -29,18 +31,26 @@
  * navbar_classes - One or more of navbar-default, navbar-inverse, navbar-fixed-top, etc.
  * image_keyboard_nav - Whether to load javascript for using the keyboard to navigate
  		image attachment pages
+ * sample_widgets - Whether to display sample widgets in the footer and page-bottom widet
+ 		areas. FOR POSSIBLE FUTURE USE ONLY.
+ * sample_footer_menu - Whether to display sample footer menu with Top and Home links
+ *
+ * NOTE: $theme_options is being deprecated and replaced with $xsbf_theme_options. You'll
+ * need to update your child themes.
  */
-$theme_options = array(
+$xsbf_theme_options = array(
 	'background_color' 		=> 'ffffff',
 	'content_width' 		=> 1170,
 	'embed_video_width' 	=> 600,
 	'embed_video_height' 	=> null, // i.e. calculate it automatically
-	'post_formats' 			=> '',
+	'post_formats' 			=> null,
 	'touch_support' 		=> false,
 	'fontawesome' 			=> false,
 	'bootstrap_gradients' 	=> false,
 	'navbar_classes'		=> 'navbar-default navbar-static-top',
-	'image_keyboard_nav' 	=> false
+	'image_keyboard_nav' 	=> false,
+	'sample_widgets' 		=> true, // for possible future use
+	'sample_footer_menu'	=> true
 );
 
 /*

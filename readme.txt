@@ -3,9 +3,9 @@
 Contributors: timnicholson
 Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, featured-images, featured-image-header, full-width-template, flexible-header, theme-options, sticky-post, threaded-comments, light, translation-ready, rtl-language-support, custom-background
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JGJUJVK99KHRE
-Requires at least: 3.6.0
-Tested up to: 3.8.1
-Stable tag: 1.1
+Requires at least: 3.7
+Tested up to: 3.9
+Stable tag: 1.2
 License: GPLv3
 License URI: http://www.opensource.org/licenses/GPL-3.0
 
@@ -49,6 +49,11 @@ For more information on Flat Bootstrap, see the "How to use our themes" [http://
 
 
 == CHANGELOG ==
+
+= 1.2 =
+* Changed theme_options variable to xsbf_theme_options to avoid collision with plugins
+* Added theme option for sample footer menu and one for possible future use in displaying sample widgets
+* Bump version to match parent theme Flat Bootstrap 
 
 = 1.1 =
 * Bump version to match parent theme Flat Bootstrap
