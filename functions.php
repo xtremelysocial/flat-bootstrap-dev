@@ -2,9 +2,7 @@
 /**
  * Theme: Flat Bootstrap Developer
  * 
- * Functions file for child theme. If you want to make simpler changes than what is 
- * included here, consider using the Flat Bootstrap Child theme that is included with the 
- * parent theme, Flat Bootstrap.
+ * Functions file
  *
  * @package flat-bootstrap-dev
  */
@@ -12,8 +10,9 @@
 /**
  * SET THEME OPTIONS HERE
  *
- * Theme options can be overriden here. The ones that load javascript are turned off
- * here to make this developer theme as stripped down as possible.
+ * Theme options can be overriden here. These are all set the same defaults as in the 
+ * parent theme, but listed here so you can easily change them. Just uncomment (remove
+ * the //) from any lines that you change.
  * 
  * Parameters:
  * background_color - Hex code for default background color without the #. eg) ffffff
@@ -29,30 +28,28 @@
  * fontawesome - Whether to load font-awesome font set or not
  * bootstrap_gradients - Whether to load Bootstrap "theme" CSS for gradients
  * navbar_classes - One or more of navbar-default, navbar-inverse, navbar-fixed-top, etc.
+ * custom_header_location - If 'header', displays the custom header above the navbar. If
+ * 		'content-header', displays it below the navbar in place of the colored content-
+ *		header section.
  * image_keyboard_nav - Whether to load javascript for using the keyboard to navigate
  		image attachment pages
- * sample_widgets - Whether to display sample widgets in the footer and page-bottom widet
- 		areas. FOR POSSIBLE FUTURE USE ONLY.
- * sample_footer_menu - Whether to display sample footer menu with Top and Home links
- *
- * NOTE: $theme_options is being deprecated and replaced with $xsbf_theme_options. You'll
- * need to update your child themes.
  */
 $xsbf_theme_options = array(
-	'background_color' 		=> 'ffffff',
-	'content_width' 		=> 1170,
-	'embed_video_width' 	=> 600,
-	'embed_video_height' 	=> null, // i.e. calculate it automatically
-	'post_formats' 			=> null,
-	'touch_support' 		=> false,
-	'fontawesome' 			=> false,
-	'bootstrap_gradients' 	=> false,
-	'navbar_classes'		=> 'navbar-default navbar-static-top',
-	'image_keyboard_nav' 	=> false,
-	'sample_widgets' 		=> true, // for possible future use
-	'sample_footer_menu'	=> true
+	//'background_color' 		=> 'f2f2f2',
+	//'content_width' 			=> 1170,
+	//'embed_video_width' 		=> 1170,
+	//'embed_video_height' 		=> null, // i.e. calculate it automatically
+	//'post_formats' 			=> null,
+	//'touch_support' 			=> true,
+	//'fontawesome' 			=> true,
+	//'bootstrap_gradients' 	=> false,
+	//'navbar_classes'			=> 'navbar-default navbar-static-top',
+	//'custom_header_location' 	=> 'header',
+	//'image_keyboard_nav' 		=> true,
+	//'sample_widgets' 			=> true, // for possible future use
+	//'sample_footer_menu'		=> true
 );
-
+ 
 /*
  * ALSO HOOK INTO PRINT_STYLES TO OVERRIDE WHAT CSS GETS LOADED
  */
