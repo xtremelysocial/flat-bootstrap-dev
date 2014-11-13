@@ -4,18 +4,24 @@ Theme URI: http://xtremelysocial.com/wordpress/developer/
 Description: Developer child theme for Flat Bootstrap. Strips back code to core Bootstrap without any of the parent themes CSS except the bare minimum needed for WordPress. No extra javascript or fonts are loaded either.
 Author: XtremelySocial
 Author url: http://xtremelysocial.com
-Version: 1.1
+Version: 1.2
 License: GNU General Public License
 License URI: http://www.opensource.org/licenses/GPL-3.0
 Template: flat-bootstrap
-Template Version: 1.4
+Template Version: 1.2
 Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, featured-images, featured-image-header, full-width-template, flexible-header, theme-options, sticky-post, threaded-comments, light, translation-ready, rtl-language-support, custom-background
 */
 
 /* To include the parent theme's stylesheet(s), uncomment the following line. */
 /*@import url("../flat-bootstrap/style.css");*/
 
-/* Make the buttons square. Mainly to show that we've loaded our own stylesheet. */
+/* PUT YOUR CHANGED STYLES HERE 
+ * 
+ * The best way to do this is to copy in the relevant section from the parent's style.css
+ * file, change what you want, and remove the lines that you didn't change.
+*/
+
+/* Make the buttons square. This is just an example, remove it if you want. */
 .btn {
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
@@ -39,3 +45,6 @@ header.content-header, content-header {
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
+/* PUT ANY NEW STYLES TO USE IN YOUR CONTENT AREAS HERE SO YOU CAN EASILY PASTE THIS
+ * SECTION IF YOU CHANGE THEMES
+ */
