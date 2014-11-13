@@ -5,63 +5,28 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JGJUJVK99KHRE
 Requires at least: 3.8
 Tested up to: 4.0
-Stable tag: 1.1
+Stable tag: 1.4
 License: GPLv3
 License URI: http://www.opensource.org/licenses/GPL-3.0
 
-Flat Bootstrap Developer by XtremelySocial is a child theme for Flat Bootstrap. It is for developers to easily customize the theme. By default, it strips out all the "extra" CSS and Javascript from the parent theme.
+Flat Bootstrap Developer by XtremelySocial is a child theme for Flat Bootstrap. It is for developers to easily customize the theme. By default, it strips out all the "extra" CSS, Javascript, and sample widgets from the parent theme.
 
 
 == DESCRIPTION ==
 
-Flat Bootstrap by XtremelySocial is a modern, fully responsive, "flat" style theme with a nice color palette, big full-width images, and full-width colored sections. It automatically adapts for desktops, tablets, and phones.
-
-It is based on the standard WordPress starter theme (_S) and the Twitter Bootstrap CSS framework. The theme was inspired by the HTML/CSS themes from Blacktie.co and color schemes from Designmodo.com’s flat UI.
-
-Features include a mobile navigation bar, multiple columns (grid), buttons, icons, labels, badges, tabbed content areas, collapsible content areas, progress bars, alert boxes, carousels (sliders) and much, much more. This is a theme for both users and theme developers with lots of features but without the bloat. 
-
-Users can download the Flat Bootstrap Child Theme to easily customize the theme. Theme developers can download the Flat Bootstrap Developer Theme that is also a child theme, but strips everything back to basic Bootstrap.
+This Flat Bootstrap Developer theme is hosted on github for developers to easily clone it and make changes. This child theme strips everything back to basic Bootstrap. 
 
 For more information go to [http://xtremelysocial.com/wordpress/developer/].
+
+If you want to start with the full theme features, use the Flat Bootstrap Child Theme delivered as a folder within the parent theme's download.
+
+For more information go to [http://xtremelysocial.com/wordpress/child/].
 
 
 == LICENSE ==
 
 Flat Bootstrap Developer WordPress theme, Copyright (C) 2014 XtremelySocial
 Flat Bootstrap Developer WordPress theme is licensed under the GPL.
-
-Userscores WordPress Starter Theme - ​http://underscores.me/
-License: Distributed under the terms of the GPL License v2
-Copyright: Automattic, Inc., automattic.com
-
-Twitter Bootstrap - http://getbootstrap.com/
-License: Distributed under the terms of the Apache License v2.0
-Copyright: Twitter, twitter.com
-
-html5shiv - http://code.google.com/p/html5shiv/
-License: Distributed under the terms of the MIT/GPL2 License
-Copyright: Alexander Farkas, https://github.com/aFarkas/
-
-Respond - https://github.com/scottjehl/Respond
-License: Distributed under the terms of the MIT License
-Copyright: Scott Jehl, scottjehl.com
-
-Google Fonts - http://www.google.com/fonts/
-License: Distributed under the terms of the OFL|SIL Open Font License
-Copyright: Google, google.com
-
-jQuery Mobile - http://jquerymobile.com
-License: Distributed under the terms of the MIT License
-Copyright: jQuery Foundation, jquery.org
-
-Font Awesome - http://fontawesome.io
-License: Distributed under the terms of the SIL OFL License 1.1 (fonts), MIT License (code), and CC BY 3.0 License (documentation)
-Copyright: Font Awesome, http://fontawesome.io
-
-
-== TRANSLATIONS ==
-
-The theme is translation ready, but I don't speak enough Spanish or any other language to translate it ;-) I will be more than happy to update the theme with new languages, if anyone wants to help out with that!
 
 
 == INSTALLATION ==
@@ -70,11 +35,6 @@ The theme is translation ready, but I don't speak enough Spanish or any other la
 2. Unzip the folder into the `/wp-content/themes/` directory
 3. Activate the theme through the 'Appearance' menu in WordPress
 4. Read the notes below about how to use this child theme
-
-
-== SCREENSHOTS ==
-
-For now, WordPress doesn't allow themes to have more than one screenshot, but you can go to [http://xtremelysocial.com/wordpress/developer/] to see a bunch of them.
 
 
 == HOW TO USE THE THEME ==
@@ -90,26 +50,30 @@ You can read more information about how to use child themes on WordPress.org [ht
 For more information on Flat Bootstrap, see the "How to use our themes" [http://xtremelysocial.com/wordpress/usergide/] and "Theme Shortcodes" [http://xtremelysocial.com/wordpress/shortcodes/] pages on our website. 
 
 
-== VERSIONING ==
-
-This theme is maintained under the Semantic Versioning guidelines. Releases will be numbered with the following format:
-
-`<major>.<minor>.<patch>`
-
-And constructed with the following guidelines:
-
-* Breaking backward compatibility bumps the major (and resets the minor and patch)
-* New additions without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes and misc changes bumps the patch
-
-For more information on SemVer, please visit [http://semver.org/].
-
-
 == CHANGELOG ==
 
-= 1.1 = 
+= 1.4 = 
+* Added new $xsbf_theme_options variable to specify whether to add theme support for Jetpack Testimonials. Turned off here by default.
+* Turned off touch support by default
+* Turned off Font Awesome by default.
+* Turned off sample widgets and sample footer menu.
+* Updated readme.txt to focus just on this child theme, not duplicate information already in the parent theme.
+* Bumped version to match parent theme.
+
+= 1.3 = 
 * Add $xsbf_theme_option to control whether custom header image displays above or below the navbar
 * Rename readme.md to readme.txt as recommended by WordPress.org
+
+= 1.2 = 
+* Changed theme_options variable to xsbf_theme_options to avoid
+collision with plugins
+* Added theme option for sample footer menu and one for possible future
+use in displaying sample widgets
+* Bump version to match parent theme Flat Bootstrap
+
+= 1.1 = 
+Bump version to 1.1 to match parent theme and update readme.md to
+reflect its now being hosted on github.
 
 = 1.0 =
 * Initial submission to the WordPress Theme Directory. Enjoy!
