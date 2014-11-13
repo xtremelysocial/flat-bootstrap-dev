@@ -58,6 +58,7 @@ For more information on Flat Bootstrap, see the "How to use our themes" [http://
 * Turned off Font Awesome by default.
 * Turned off sample widgets and sample footer menu.
 * Updated readme.txt to focus just on this child theme, not duplicate information already in the parent theme.
+* Update screenshot to reflect home page being the blog.
 * Bumped version to match parent theme.
 
 = 1.3 = 
