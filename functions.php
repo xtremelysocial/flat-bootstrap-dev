@@ -48,6 +48,7 @@ $xsbf_theme_options = array(
 	'fontawesome' 			=> false,
 	'bootstrap_gradients' 	=> false,
 	'navbar_classes'		=> 'navbar-default navbar-static-top',
+	'custom_header_location' 	=> 'header',
 	'image_keyboard_nav' 	=> false,
 	'sample_widgets' 		=> true, // for possible future use
 	'sample_footer_menu'	=> true
