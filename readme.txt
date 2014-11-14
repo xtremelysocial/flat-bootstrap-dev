@@ -5,18 +5,22 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JGJUJVK99KHRE
 Requires at least: 3.8
 Tested up to: 4.0
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv3
 License URI: http://www.opensource.org/licenses/GPL-3.0
 
-Flat Bootstrap Developer by XtremelySocial is a child theme for Flat Bootstrap. It is for developers to easily customize the theme. By default, it strips out all the "extra" CSS and Javascript from the parent theme.
+Flat Bootstrap Developer by XtremelySocial is a child theme for Flat Bootstrap. It is for developers to easily customize the theme. By default, it strips out all the "extra" CSS, Javascript, and sample widgets from the parent theme.
 
 
 == DESCRIPTION ==
 
-This Flat Bootstrap Developer theme is available on github where you can fork it to make modifications or simply download it, change the directory name and theme name and edit that version.
+This Flat Bootstrap Developer theme is hosted on github for developers to easily clone it and make changes. This child theme strips everything back to basic Bootstrap. 
 
 For more information go to [http://xtremelysocial.com/wordpress/developer/].
+
+If you want to start with the full theme features, use the Flat Bootstrap Child Theme delivered as a folder within the parent theme's download.
+
+For more information go to [http://xtremelysocial.com/wordpress/child/].
 
 
 == LICENSE ==
@@ -50,18 +54,29 @@ For more information on Flat Bootstrap, see the "How to use our themes" [http://
 
 == CHANGELOG ==
 
-= 1.3 =
+= 1.4 = 
+* Added new $xsbf_theme_options variable to specify whether to add theme support for Jetpack Testimonials. Turned off here by default.
+* Turned off touch support by default
+* Turned off Font Awesome by default.
+* Turned off sample widgets and sample footer menu.
+* Updated readme.txt to focus just on this child theme, not duplicate information already in the parent theme.
+* Update screenshot to reflect home page being the blog.
+* Bumped version to match parent theme.
+
+= 1.3 = 
 * Add $xsbf_theme_option to control whether custom header image displays above or below the navbar
-* Bump version to match parent theme Flat Bootstrap 
+* Rename readme.md to readme.txt as recommended by WordPress.org
 
-= 1.2 =
-* Changed theme_options variable to xsbf_theme_options to avoid collision with plugins
-* Added theme option for sample footer menu and one for possible future use in displaying sample widgets
-* Bump version to match parent theme Flat Bootstrap 
-
-= 1.1 =
+= 1.2 = 
+* Changed theme_options variable to xsbf_theme_options to avoid
+collision with plugins
+* Added theme option for sample footer menu and one for possible future
+use in displaying sample widgets
 * Bump version to match parent theme Flat Bootstrap
-* Update the readme.md file to reflect that the download is now on github
+
+= 1.1 = 
+Bump version to 1.1 to match parent theme and update readme.md to
+reflect its now being hosted on github.
 
 = 1.0.0 =
 * Initial version
