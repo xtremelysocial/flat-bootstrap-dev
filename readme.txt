@@ -5,7 +5,7 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JGJUJVK99KHRE
 Requires at least: 3.8
 Tested up to: 4.0
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPLv3
 License URI: http://www.opensource.org/licenses/GPL-3.0
 
@@ -53,6 +53,9 @@ For more information on Flat Bootstrap, see the "How to use our themes" [http://
 
 
 == CHANGELOG ==
+
+= 1.4.1 = 
+* Updated screenshot with image from unsplash.com to be GPL compatible
 
 = 1.4 = 
 * Added new $xsbf_theme_options variable to specify whether to add theme support for Jetpack Testimonials. Turned off here by default.
