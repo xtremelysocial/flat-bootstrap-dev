@@ -31,19 +31,21 @@ Flat Bootstrap Developer WordPress theme is licensed under the GPL.
 
 == INSTALLATION ==
 
-1. Download the theme
-2. Unzip the folder into the `/wp-content/themes/` directory
+1. Download and install the parent theme Flat Bootstrap into your /wp-content/themes/ directory
+2. Download and install flat-bootstrap-dev into your /wp-content/themes/ directory
+3. COPY flat-bootstrap-dev to a new directory name
+4. Change the Theme Name in the style.css file to something unique
 3. Activate the theme through the 'Appearance' menu in WordPress
 4. Read the notes below about how to use this child theme
 
 
-== HOW TO USE THE THEME ==
+== HOW TO USE THIS CHILD THEME ==
 
 This theme is a standard WordPress "child theme". It comes with a style.css file that you can edit to override the parent theme's CSS or add new CSS styles to use in your content. It also comes with a functions.php file in case you want to override any theme functions. If you want to make changes to any other files from the parent theme, copy the file down to the child theme directory and edit it there.
 
 By using this child theme to customize Flat Bootstrap, you'll be able to upgrade that theme from WordPress.org to receive bug fixes and new features.
 
-However, once you make changes to this child theme you should NOT update it from WordPress.org or you will lose your changes. To be safe, you may want to make a COPY of this child theme and edit that instead.
+However, once you make changes to this child theme you should NOT download it again from github or you will lose your changes. To be safe, you should fork this child theme on github or at least rename it to avoid conflicts.
 
 You can read more information about how to use child themes on WordPress.org [https://codex.wordpress.org/Child_Themes]
 
@@ -79,5 +81,5 @@ use in displaying sample widgets
 Bump version to 1.1 to match parent theme and update readme.md to
 reflect its now being hosted on github.
 
-= 1.0 =
-* Initial submission to the WordPress Theme Directory. Enjoy!
+= 1.0.0 =
+* Initial version

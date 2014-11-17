@@ -2,7 +2,9 @@
 /**
  * Theme: Flat Bootstrap Developer
  * 
- * Functions file
+ * Functions file for child theme. If you want to make simpler changes than what is 
+ * included here, consider using the Flat Bootstrap Child theme that is included with the 
+ * parent theme, Flat Bootstrap.
  *
  * @package flat-bootstrap-dev
  */
@@ -10,9 +12,8 @@
 /**
  * SET THEME OPTIONS HERE
  *
- * Theme options can be overriden here. These are all set the same defaults as in the 
- * parent theme, but listed here so you can easily change them. Just uncomment (remove
- * the //) from any lines that you change.
+ * Theme options can be overriden here. The ones that load javascript are turned off
+ * here to make this developer theme as stripped down as possible.
  * 
  * Parameters:
  * background_color - Hex code for default background color without the #. eg) ffffff
@@ -51,6 +52,9 @@
  * 
  * testimonials - Whether to activate testimonials custom post type if Jetpack plugin is 
  * 		active
+ *
+ * NOTE: $theme_options is being deprecated and replaced with $xsbf_theme_options. You'll
+ * need to update your child themes.
  */
 $xsbf_theme_options = array(
 	'background_color' 		=> 'ffffff',
@@ -68,7 +72,7 @@ $xsbf_theme_options = array(
 	'sample_footer_menu'		=> false,
 	'testimonials'				=> false // requires Jetpack plugin
 );
- 
+
 /*
  * ALSO HOOK INTO PRINT_STYLES TO OVERRIDE WHAT CSS GETS LOADED
  */
